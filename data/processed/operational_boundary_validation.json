@@ -1,0 +1,21 @@
+{
+  "boundary_type": "operational_study_area",
+  "boundary_name": "KasuCab Belagavi Urban Service Area",
+  "source_method": "manual_digitization",
+  "administrative_boundary_claim": false,
+  "coordinate_reference_system": "EPSG:4326",
+  "input_path": "D:\\Hackathon\\Geo_synthetic_pipeline\\KasuCab_Belagavi_Geo_Synthetic_Pipeline\\data\\raw\\kasucab_operational_boundary.geojson",
+  "retrieval_timestamp_utc": "2026-11-13T18:35:39.579365+00:00",
+  "source_file_exists": false,
+  "source_geometry_preserved": true,
+  "geometry_repair_performed": false,
+  "geometry_repair_method": null,
+  "geometry_checks_passed": false,
+  "operational_coverage_reviewed": false,
+  "boundary_approved": false,
+  "approval_blockers": [
+    "Manual boundary input is missing: D:\\Hackathon\\Geo_synthetic_pipeline\\KasuCab_Belagavi_Geo_Synthetic_Pipeline\\data\\raw\\kasucab_operational_boundary.geojson"
+  ],
+  "anchors": [],
+  "reference_layers": []
+}

@@ -1,0 +1,38 @@
+{
+  "source": "OpenStreetMap",
+  "enabled": true,
+  "required": false,
+  "context_source_status": "unavailable",
+  "cache_status": "not_used",
+  "cache_path": "D:\\Hackathon\\Geo_synthetic_pipeline\\KasuCab_Belagavi_Geo_Synthetic_Pipeline\\data\\cache\\osm_context_features.geojson",
+  "retrieval_timestamp": "2026-11-13T19:02:30.959050+00:00",
+  "retrieval_bounds_wgs84": {
+    "min_lon": 74.46681458897376,
+    "min_lat": 15.798451665799412,
+    "max_lon": 74.57382240755773,
+    "max_lat": 15.912536509917539
+  },
+  "h3_resolution": 8,
+  "synthetic_cell_count": 94,
+  "raw_feature_count": 0,
+  "poi_feature_count": 0,
+  "context_feature_count": 0,
+  "assigned_feature_count": 0,
+  "excluded_feature_count": 0,
+  "errors": [
+    "attempt 1: ProxyError: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))",
+    "attempt 2: ProxyError: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))",
+    "attempt 3: ProxyError: HTTPSConnectionPool(host='overpass-api.de', port=443): Max retries exceeded with url: /api/interpreter (Caused by ProxyError('Unable to connect to proxy', NewConnectionError(\"HTTPSConnection(host='127.0.0.1', port=9): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\")))"
+  ],
+  "category_counts": {
+    "transport": 0,
+    "healthcare": 0,
+    "education": 0,
+    "commercial": 0,
+    "food_hospitality": 0,
+    "industrial": 0,
+    "recreation": 0
+  },
+  "temporal_note": "OSM features are current static contextual inputs, not historical observations for the 180-day demand period.",
+  "odbl_attribution": "\u00a9 OpenStreetMap contributors; data used under the Open Database License (ODbL)."
+}

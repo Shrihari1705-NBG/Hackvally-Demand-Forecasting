@@ -1,0 +1,161 @@
+{
+  "model_type": "HistGradientBoostingRegressor(loss='poisson')",
+  "model_version": "phase7a-v1",
+  "training_timestamp_utc": "2026-11-13T19:47:41.061350+00:00",
+  "python_version": "3.13.14",
+  "scikit_learn_version": "1.9.1",
+  "historical_start": "2026-05-17T00:00:00+05:30",
+  "historical_end": "2026-11-12T23:00:00+05:30",
+  "train_validation_test": {
+    "train": {
+      "start": "2026-05-24T00:00:00+05:30",
+      "end": "2026-09-22T01:00:00+05:30",
+      "unique_timestamps": 2906
+    },
+    "validation": {
+      "start": "2026-09-22T02:00:00+05:30",
+      "end": "2026-10-17T23:00:00+05:30",
+      "unique_timestamps": 622
+    },
+    "test": {
+      "start": "2026-10-18T00:00:00+05:30",
+      "end": "2026-11-12T23:00:00+05:30",
+      "unique_timestamps": 624
+    }
+  },
+  "rows_removed_insufficient_history": 15792,
+  "h3_resolution": 8,
+  "cells": 94,
+  "feature_metadata": {
+    "target_column": "demand_count",
+    "timezone": "Asia/Kolkata",
+    "historical_start": "2026-05-17T00:00:00+05:30",
+    "historical_end": "2026-11-12T23:00:00+05:30",
+    "forecast_horizon_hours": 1,
+    "lag_hours": [
+      1,
+      24,
+      168
+    ],
+    "rolling_windows": [
+      3,
+      24,
+      168
+    ],
+    "feature_columns": [
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "day_of_month",
+      "month",
+      "week_of_year",
+      "hour_sin",
+      "hour_cos",
+      "day_of_week_sin",
+      "day_of_week_cos",
+      "h3_index",
+      "region_id",
+      "center_lat",
+      "center_lon",
+      "demand_lag_1",
+      "demand_lag_24",
+      "demand_lag_168",
+      "demand_rolling_mean_3h",
+      "demand_rolling_mean_24h",
+      "demand_rolling_mean_168h",
+      "context_data_available"
+    ],
+    "categorical_features": [
+      "h3_index",
+      "region_id",
+      "context_data_available"
+    ],
+    "numeric_features": [
+      "hour",
+      "day_of_week",
+      "is_weekend",
+      "day_of_month",
+      "month",
+      "week_of_year",
+      "hour_sin",
+      "hour_cos",
+      "day_of_week_sin",
+      "day_of_week_cos",
+      "center_lat",
+      "center_lon",
+      "demand_lag_1",
+      "demand_lag_24",
+      "demand_lag_168",
+      "demand_rolling_mean_3h",
+      "demand_rolling_mean_24h",
+      "demand_rolling_mean_168h"
+    ],
+    "rows_before_history_trim": 406080,
+    "rows_removed_insufficient_history": 15792,
+    "rows_after_history_trim": 390288,
+    "cells": 94,
+    "hourly_intervals_before_trim": 4320,
+    "split_timestamps": {
+      "train": {
+        "start": "2026-05-24T00:00:00+05:30",
+        "end": "2026-09-22T01:00:00+05:30",
+        "unique_timestamps": 2906
+      },
+      "validation": {
+        "start": "2026-09-22T02:00:00+05:30",
+        "end": "2026-10-17T23:00:00+05:30",
+        "unique_timestamps": 622
+      },
+      "test": {
+        "start": "2026-10-18T00:00:00+05:30",
+        "end": "2026-11-12T23:00:00+05:30",
+        "unique_timestamps": 624
+      }
+    },
+    "split_rows": {
+      "train": 273164,
+      "validation": 58468,
+      "test": 58656
+    },
+    "leakage_excluded_fields": [
+      "demand_count",
+      "ride_id",
+      "request_outcome",
+      "pickup_lat",
+      "pickup_lon",
+      "destination_lat",
+      "destination_lon",
+      "destination_h3_index",
+      "is_valid_demand"
+    ],
+    "no_lag_or_rolling_future_fill": true
+  },
+  "random_seed": 42,
+  "training_configuration": {
+    "enabled": true,
+    "forecast_horizon_hours": 1,
+    "model_type": "hist_gradient_boosting_poisson",
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "test_fraction": 0.15,
+    "random_seed": 42,
+    "lag_hours": [
+      1,
+      24,
+      168
+    ],
+    "rolling_windows": [
+      3,
+      24,
+      168
+    ],
+    "target_column": "demand_count",
+    "timezone": "Asia/Kolkata",
+    "max_iter": 160,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 31,
+    "l2_regularization": 0.1
+  },
+  "poi_context_status": "unavailable_or_optional",
+  "synthetic_warning": "Metrics are on simulated demand data, not observed Belagavi ride demand."
+}

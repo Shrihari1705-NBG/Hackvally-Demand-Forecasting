@@ -1,0 +1,188 @@
+{
+  "boundary_type": "operational_study_area",
+  "boundary_name": "KasuCab Belagavi Urban Service Area",
+  "city": "Belagavi, Karnataka, India",
+  "status": "DRAFT – NOT APPROVED",
+  "retrieval_timestamp_utc": "2026-11-13T18:15:37.451168+00:00",
+  "regions": [
+    {
+      "region_id": "R01",
+      "region_name": "Central Business District",
+      "description": "Core commercial area around Khade Bazar, Ganpat Galli, College Road and Kirloskar Road.",
+      "anchor_query": "Khade Bazar, Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Khade Bazar",
+        "Ganpat Galli",
+        "College Road",
+        "Kirloskar Road"
+      ],
+      "center_lat": 15.860003,
+      "center_lon": 74.5127159,
+      "geocoder_display_name": "Khade Bazar, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "node",
+        "osm_id": 6039044318,
+        "class": null,
+        "type": "suburb"
+      },
+      "covered_by_draft": true,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Medium"
+    },
+    {
+      "region_id": "R02",
+      "region_name": "Transport Hub",
+      "description": "Railway Station, Central Bus Stand and Kadamba Bus Stand surroundings.",
+      "anchor_query": "Belagavi Railway Station, Karnataka, India",
+      "reference_landmarks": [
+        "Belagavi Railway Station",
+        "Central Bus Stand",
+        "Kadamba Bus Stand"
+      ],
+      "center_lat": 15.8490568,
+      "center_lon": 74.5089431,
+      "geocoder_display_name": "Belagavi, Station Road, Shastri Nagar, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "node",
+        "osm_id": 582437498,
+        "class": null,
+        "type": "station"
+      },
+      "covered_by_draft": true,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Medium"
+    },
+    {
+      "region_id": "R03",
+      "region_name": "Tilakwadi–Camp",
+      "description": "Tilakwadi, Camp and Cantonment/Fort surroundings.",
+      "anchor_query": "Tilakwadi, Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Tilakwadi",
+        "Camp",
+        "Belgaum Fort",
+        "Belagavi Cantonment"
+      ],
+      "center_lat": 15.8368581,
+      "center_lon": 74.5019281,
+      "geocoder_display_name": "Tilakwadi, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "node",
+        "osm_id": 6039044427,
+        "class": null,
+        "type": "suburb"
+      },
+      "covered_by_draft": true,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Medium"
+    },
+    {
+      "region_id": "R04",
+      "region_name": "Shahapur",
+      "description": "Shahapur urban neighbourhood reference area.",
+      "anchor_query": "Shahapur, Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Shahapur"
+      ],
+      "center_lat": 15.8400681,
+      "center_lon": 74.5177745,
+      "geocoder_display_name": "Shahapur, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "node",
+        "osm_id": 6039158332,
+        "class": null,
+        "type": "suburb"
+      },
+      "covered_by_draft": true,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Medium"
+    },
+    {
+      "region_id": "R05",
+      "region_name": "Angol–Majagaon",
+      "description": "Angol and Majagaon urban neighbourhood reference area.",
+      "anchor_query": "Angol, Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Angol",
+        "Majagaon"
+      ],
+      "center_lat": 15.8229951,
+      "center_lon": 74.5030977,
+      "geocoder_display_name": "Angol, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "node",
+        "osm_id": 4063638449,
+        "class": null,
+        "type": "suburb"
+      },
+      "covered_by_draft": false,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Low"
+    },
+    {
+      "region_id": "R06",
+      "region_name": "Shivabasav Nagar–Medical Hub",
+      "description": "Shivabasav Nagar and KLE Hospital vicinity.",
+      "anchor_query": "KLE Hospital Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Shivabasav Nagar",
+        "KLE Hospital"
+      ],
+      "center_lat": 15.8879009,
+      "center_lon": 74.519919,
+      "geocoder_display_name": "K L E S Hospital, Belgaum - Panaji Highway, Subhash Nagar, Belagavi, Belagavi taluku, Dharwad, Karnataka, 580029, India",
+      "source_feature": {
+        "osm_type": "way",
+        "osm_id": 134103793,
+        "class": null,
+        "type": "hospital"
+      },
+      "covered_by_draft": false,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Low"
+    },
+    {
+      "region_id": "R07",
+      "region_name": "Udyambag Industrial Area",
+      "description": "Udyambag industrial and employment area.",
+      "anchor_query": "Udyambag Industrial Area, Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Udyambag Industrial Area"
+      ],
+      "center_lat": 15.8204752,
+      "center_lon": 74.4840987,
+      "geocoder_display_name": "Udyambag, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "way",
+        "osm_id": 978157554,
+        "class": null,
+        "type": "industrial"
+      },
+      "covered_by_draft": true,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Medium"
+    },
+    {
+      "region_id": "R08",
+      "region_name": "Kanabargi and Outer Residential Area",
+      "description": "Kanabargi and adjacent outer residential service area. OSM currently resolves the local spelling through Kanbargi Pond.",
+      "anchor_query": "Kanbargi Pond, Belagavi, Karnataka, India",
+      "reference_landmarks": [
+        "Kanabargi/Kanbargi",
+        "Kanbargi Pond"
+      ],
+      "center_lat": 15.8913164,
+      "center_lon": 74.5540656,
+      "geocoder_display_name": "Kanbargi Pond, Auto Nagar, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "source_feature": {
+        "osm_type": "way",
+        "osm_id": 201585540,
+        "class": null,
+        "type": "water"
+      },
+      "covered_by_draft": false,
+      "boundary_or_inclusion_method": "OSM named anchor checked against union of selected urban land-use polygons with 150 m morphological connection",
+      "confidence_level": "Low"
+    }
+  ]
+}

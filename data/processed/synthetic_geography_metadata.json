@@ -1,0 +1,60 @@
+{
+  "generated_at_utc": "2026-11-13T18:56:24.159612+00:00",
+  "geography_mode": "synthetic_operational",
+  "boundary_type": "synthetic_study_area",
+  "source_method": "h3_anchor_neighborhoods",
+  "h3_resolution": 8,
+  "neighborhood_radius": 2,
+  "random_seed": 42,
+  "region_assignment_method": "nearest_anchor",
+  "require_official_boundary": false,
+  "anchor_count": 8,
+  "unique_anchor_h3_cells": 8,
+  "unique_generated_h3_cells": 94,
+  "anchor_h3_indices": {
+    "R01": "8860a821b9fffff",
+    "R02": "8860a8219dfffff",
+    "R03": "8860a820a5fffff",
+    "R04": "8860a821d7fffff",
+    "R05": "8860a820a9fffff",
+    "R06": "8860a82f4dfffff",
+    "R07": "8860a820bdfffff",
+    "R08": "8860a82ad5fffff"
+  },
+  "cells_per_region": {
+    "R01": 11,
+    "R02": 4,
+    "R03": 6,
+    "R04": 9,
+    "R05": 12,
+    "R06": 19,
+    "R07": 14,
+    "R08": 19
+  },
+  "overlap_statistics": {
+    "shared_cell_count": 35,
+    "anchor_neighborhood_cell_counts": {
+      "R01": 19,
+      "R02": 19,
+      "R03": 19,
+      "R04": 19,
+      "R05": 19,
+      "R06": 19,
+      "R07": 19,
+      "R08": 19
+    }
+  },
+  "bounds_wgs84": {
+    "min_lon": 74.46681458897376,
+    "min_lat": 15.798451665799412,
+    "max_lon": 74.57382240755773,
+    "max_lat": 15.912536509917539
+  },
+  "approximate_total_coverage_area_km2": 66.51715941736187,
+  "connected_component_count": 1,
+  "connected_component_sizes": [
+    94
+  ],
+  "is_disconnected": false,
+  "official_boundary_claim": false
+}

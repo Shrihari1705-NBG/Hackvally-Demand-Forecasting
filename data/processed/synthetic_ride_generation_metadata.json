@@ -1,0 +1,149 @@
+{
+  "generator": "phase5a-v1",
+  "generated_at_utc": "2026-11-13T19:21:30.173864+00:00",
+  "random_seed": 42,
+  "configuration_snapshot": {
+    "enabled": true,
+    "historical_days": 180,
+    "random_seed": 42,
+    "demand_distribution": "poisson",
+    "include_weekend_effects": true,
+    "include_hourly_patterns": true,
+    "include_region_patterns": true,
+    "include_random_shocks": true,
+    "timezone": "Asia/Kolkata",
+    "base_requests_per_cell_hour": 0.35,
+    "destination_distance_scale_km": 6.0,
+    "same_region_destination_bonus": 2.0,
+    "max_point_sampling_attempts": 500,
+    "outcome_probabilities": {
+      "completed": 0.78,
+      "cancelled": 0.12,
+      "rejected": 0.07,
+      "expired": 0.03
+    },
+    "region_patterns": {
+      "R01": {
+        "baseline_multiplier": 1.35,
+        "morning_peak": 1.2,
+        "evening_peak": 1.35,
+        "business_hours": 1.35
+      },
+      "R02": {
+        "baseline_multiplier": 1.25,
+        "morning_peak": 1.65,
+        "evening_peak": 1.65,
+        "business_hours": 1.0
+      },
+      "R03": {
+        "baseline_multiplier": 1.0,
+        "morning_peak": 1.15,
+        "evening_peak": 1.2,
+        "business_hours": 1.05
+      },
+      "R04": {
+        "baseline_multiplier": 0.85,
+        "morning_peak": 1.25,
+        "evening_peak": 1.25,
+        "business_hours": 0.9
+      },
+      "R05": {
+        "baseline_multiplier": 1.0,
+        "morning_peak": 1.45,
+        "evening_peak": 1.4,
+        "business_hours": 0.95
+      },
+      "R06": {
+        "baseline_multiplier": 1.1,
+        "morning_peak": 1.1,
+        "evening_peak": 1.15,
+        "business_hours": 1.1
+      },
+      "R07": {
+        "baseline_multiplier": 0.9,
+        "morning_peak": 1.75,
+        "evening_peak": 1.55,
+        "business_hours": 0.85
+      },
+      "R08": {
+        "baseline_multiplier": 0.9,
+        "morning_peak": 1.3,
+        "evening_peak": 1.3,
+        "business_hours": 0.95
+      }
+    }
+  },
+  "history_days": 180,
+  "historical_start": "2026-05-17",
+  "historical_end": "2026-11-12",
+  "timezone": "Asia/Kolkata",
+  "timestamp_convention": "request_timestamp is a timezone-aware event timestamp within the local request hour",
+  "demand_target": "valid synthetic ride-request attempts; all generated outcomes remain valid demand",
+  "synthetic_assumption_notice": "Region and temporal patterns are configurable simulation assumptions, not measured Belagavi demand.",
+  "osm_context_note": "OSM context is optional and was not used as a demand driver; unavailable context is not interpreted as facility absence.",
+  "quality": {
+    "row_count": 137291,
+    "unique_ride_ids": 137291,
+    "requests_by_region": {
+      "R01": 22411,
+      "R02": 7904,
+      "R03": 7546,
+      "R04": 10250,
+      "R05": 17888,
+      "R06": 29070,
+      "R07": 18833,
+      "R08": 23389
+    },
+    "requests_by_hour": {
+      "0": 2587,
+      "1": 2651,
+      "2": 2624,
+      "3": 2625,
+      "4": 2710,
+      "5": 2615,
+      "6": 4750,
+      "7": 7759,
+      "8": 8004,
+      "9": 8001,
+      "10": 7794,
+      "11": 6078,
+      "12": 6136,
+      "13": 6168,
+      "14": 5978,
+      "15": 6055,
+      "16": 6241,
+      "17": 7772,
+      "18": 7837,
+      "19": 8007,
+      "20": 7668,
+      "21": 7773,
+      "22": 4701,
+      "23": 4757
+    },
+    "requests_by_weekday": {
+      "0": 20673,
+      "1": 20834,
+      "2": 20317,
+      "3": 21022,
+      "4": 20052,
+      "5": 17132,
+      "6": 17261
+    },
+    "requests_by_outcome": {
+      "cancelled": 16575,
+      "completed": 107043,
+      "expired": 4093,
+      "rejected": 9580
+    },
+    "min_distance_km": 0.0064196344716923245,
+    "max_distance_km": 14.79037809569462,
+    "mean_requests_per_cell_hour": 0.33808855397951143,
+    "median_requests_per_cell_hour": 0.0,
+    "max_requests_per_cell_hour": 7,
+    "min_requests_per_cell_hour": 0,
+    "historical_start": "2026-05-17",
+    "historical_end": "2026-11-12",
+    "timezone": "Asia/Kolkata",
+    "osm_context_used": false
+  }
+}

@@ -1,0 +1,95 @@
+h3_index,region_id,region_name,context_data_available,context_source_status,transport_count,healthcare_count,education_count,commercial_count,food_hospitality_count,industrial_count,recreation_count,total_poi_count,context_feature_count
+8860a82081fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82083fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82085fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82087fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a8208dfffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82095fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820a1fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820a3fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820a5fffff,R03,Tilakwadi–Camp,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820a7fffff,R03,Tilakwadi–Camp,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820a9fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820abfffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820adfffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820b1fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820b3fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820b5fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820b7fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820b9fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820bbfffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820bdfffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820e1fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820e3fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820e5fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820e7fffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a820ebfffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82137fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82181fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82183fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82185fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82187fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82189fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a8218bfffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82191fffff,R02,Transport Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82193fffff,R03,Tilakwadi–Camp,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82195fffff,R02,Transport Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82197fffff,R02,Transport Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82199fffff,R03,Tilakwadi–Camp,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a8219bfffff,R03,Tilakwadi–Camp,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a8219dfffff,R02,Transport Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821a1fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821a3fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821a5fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821a7fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821abfffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821b1fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821b3fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821b5fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821b7fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821b9fffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821bbfffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821bdfffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821c3fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821d1fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821d3fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821d5fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821d7fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821d9fffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821dbfffff,R05,Angol–Majagaon,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a821ddfffff,R04,Shahapur,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a81fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a83fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a89fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a8bfffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a8dfffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a91fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a93fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a97fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a99fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a9bfffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82a9dfffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ac1fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ac3fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ac7fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82acbfffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ad1fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ad3fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ad5fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ad7fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82ad9fffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82adbfffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82addfffff,R08,Kanabargi and Outer Residential Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82e49fffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82e4bfffff,R07,Udyambag Industrial Area,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82e4dfffff,R03,Tilakwadi–Camp,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82e6dfffff,R01,Central Business District,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f41fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f43fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f45fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f47fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f49fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f4bfffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f4dfffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f69fffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0
+8860a82f6bfffff,R06,Shivabasav Nagar–Medical Hub,False,unavailable,0,0,0,0,0,0,0,0,0

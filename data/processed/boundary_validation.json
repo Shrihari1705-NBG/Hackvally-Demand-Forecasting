@@ -1,0 +1,111 @@
+{
+  "retrieval_timestamp_utc": "2026-11-13T17:27:40.311620+00:00",
+  "geometry_checks_passed": false,
+  "administrative_boundary_verified": false,
+  "boundary_approved": false,
+  "official_references": {
+    "city_corporation": "https://belagavicitycorp.org/WebSiteBGM/WardInfromation.aspx",
+    "cantonment_city_map": "https://belgaum.cantt.gov.in/city-map/",
+    "cantonment_about": "https://belgaum.cantt.gov.in/about-board/",
+    "limitations": "The Cantonment city-map URL did not expose a downloadable boundary in this run; official pages are comparison references only."
+  },
+  "selected_city_corporation": null,
+  "selected_cantonment": null,
+  "cantonment_zone_investigation": {
+    "zone_candidates": [],
+    "representation": "No separate Fort Zone geometry identified; selected cantonment geometry retained for Main/Fort coverage review"
+  },
+  "rejected_candidates": [
+    {
+      "candidate": {
+        "source": "Nominatim",
+        "source_query": "Belagavi City Corporation, Karnataka, India",
+        "retrieval_timestamp_utc": "2026-11-13T17:27:40.311620+00:00",
+        "osm_element_type": "way",
+        "osm_id": 511114422,
+        "relation_id": null,
+        "name": "Belagavi City Corporation",
+        "official_name": null,
+        "local_name": null,
+        "display_name": "Belagavi City Corporation, Belgaum - Panaji Highway, Subhash Nagar, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+        "boundary": null,
+        "admin_level": "Belagavi",
+        "other_osm_tags": {},
+        "geometry_type": "Polygon",
+        "bounds": [
+          74.5161952,
+          15.8729083,
+          74.516951,
+          15.8736206
+        ],
+        "area_km2": null,
+        "candidate_role": "city_corporation"
+      },
+      "reason": "No confidently identifiable administrative relation polygon"
+    },
+    {
+      "candidate": {
+        "source": "Nominatim",
+        "source_query": "Belagavi Cantonment, Karnataka, India",
+        "retrieval_timestamp_utc": "2026-11-13T17:27:40.311620+00:00",
+        "osm_element_type": "way",
+        "osm_id": 1119941070,
+        "relation_id": null,
+        "name": "Belagavi Cantonment",
+        "official_name": null,
+        "local_name": null,
+        "display_name": "Belagavi Cantonment, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+        "boundary": null,
+        "admin_level": "Belagavi",
+        "other_osm_tags": {},
+        "geometry_type": "Polygon",
+        "bounds": [
+          74.4764042,
+          15.8438457,
+          74.507904,
+          15.8799668
+        ],
+        "area_km2": null,
+        "candidate_role": "cantonment"
+      },
+      "reason": "No confidently identifiable administrative relation polygon"
+    },
+    {
+      "candidate_role": "city_corporation",
+      "reason": "No confidently identifiable administrative relation polygon"
+    },
+    {
+      "candidate_role": "cantonment",
+      "reason": "No confidently identifiable administrative relation polygon"
+    }
+  ],
+  "overpass_candidates": [],
+  "request_failures": [
+    {
+      "source": "Overpass",
+      "error": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter"
+        },
+        {
+          "endpoint": "https://overpass.kumi.systems/api/interpreter",
+          "error": "HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Read timed out. (read timeout=180)"
+        },
+        {
+          "endpoint": "https://overpass.private.coffee/api/interpreter",
+          "error": "HTTPSConnectionPool(host='overpass.private.coffee', port=443): Read timed out. (read timeout=180)"
+        }
+      ]
+    }
+  ],
+  "merged": {
+    "geometry_type": null,
+    "bounds": null,
+    "area_km2": null,
+    "component_count": null,
+    "overlap_area_km2": null,
+    "suspicious_findings": []
+  },
+  "confidence_assessment": "Pending manual inspection; automated geometry checks do not establish legal administrative correctness."
+}

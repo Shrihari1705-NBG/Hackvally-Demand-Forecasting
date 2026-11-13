@@ -1,0 +1,166 @@
+{
+  "boundary_queries": [
+    "Belagavi City Corporation, Karnataka, India",
+    "Belgaum Cantonment, Karnataka, India"
+  ],
+  "h3_resolution": 8,
+  "metric_crs": "EPSG:32643",
+  "history_days": 180,
+  "end_date": "2026-11-12",
+  "random_seed": 42,
+  "timezone": "Asia/Kolkata",
+  "boundary_approval": {
+    "geometry_checks_passed": false,
+    "administrative_boundary_verified": false,
+    "boundary_approved": false
+  },
+  "boundary_type": "operational_study_area",
+  "boundary_source_method": "manual_digitization",
+  "geometry_checks_passed": false,
+  "operational_coverage_reviewed": false,
+  "boundary_approved": false,
+  "boundary_approval_date": null,
+  "boundary_version": null,
+  "geography": {
+    "mode": "synthetic_operational",
+    "boundary_type": "synthetic_study_area",
+    "source_method": "h3_anchor_neighborhoods",
+    "h3_resolution": 8,
+    "neighborhood_radius": 2,
+    "random_seed": 42,
+    "region_assignment_method": "nearest_anchor",
+    "require_official_boundary": false
+  },
+  "osm_context": {
+    "enabled": true,
+    "required": false,
+    "source": "OpenStreetMap",
+    "retrieval_timeout_seconds": 60,
+    "max_retries": 2,
+    "cache_enabled": true,
+    "cache_path": "data/cache/osm_context_features.geojson",
+    "include_original_tags": true
+  },
+  "synthetic_rides": {
+    "enabled": true,
+    "historical_days": 180,
+    "random_seed": 42,
+    "demand_distribution": "poisson",
+    "include_weekend_effects": true,
+    "include_hourly_patterns": true,
+    "include_region_patterns": true,
+    "include_random_shocks": true,
+    "timezone": "Asia/Kolkata",
+    "base_requests_per_cell_hour": 0.35,
+    "destination_distance_scale_km": 6.0,
+    "same_region_destination_bonus": 2.0,
+    "max_point_sampling_attempts": 500,
+    "outcome_probabilities": {
+      "completed": 0.78,
+      "cancelled": 0.12,
+      "rejected": 0.07,
+      "expired": 0.03
+    },
+    "region_patterns": {
+      "R01": {"baseline_multiplier": 1.35, "morning_peak": 1.20, "evening_peak": 1.35, "business_hours": 1.35},
+      "R02": {"baseline_multiplier": 1.25, "morning_peak": 1.65, "evening_peak": 1.65, "business_hours": 1.00},
+      "R03": {"baseline_multiplier": 1.00, "morning_peak": 1.15, "evening_peak": 1.20, "business_hours": 1.05},
+      "R04": {"baseline_multiplier": 0.85, "morning_peak": 1.25, "evening_peak": 1.25, "business_hours": 0.90},
+      "R05": {"baseline_multiplier": 1.00, "morning_peak": 1.45, "evening_peak": 1.40, "business_hours": 0.95},
+      "R06": {"baseline_multiplier": 1.10, "morning_peak": 1.10, "evening_peak": 1.15, "business_hours": 1.10},
+      "R07": {"baseline_multiplier": 0.90, "morning_peak": 1.75, "evening_peak": 1.55, "business_hours": 0.85},
+      "R08": {"baseline_multiplier": 0.90, "morning_peak": 1.30, "evening_peak": 1.30, "business_hours": 0.95}
+    }
+  },
+  "forecasting": {
+    "enabled": true,
+    "forecast_horizon_hours": 1,
+    "model_type": "hist_gradient_boosting_poisson",
+    "train_fraction": 0.70,
+    "validation_fraction": 0.15,
+    "test_fraction": 0.15,
+    "random_seed": 42,
+    "lag_hours": [1, 24, 168],
+    "rolling_windows": [3, 24, 168],
+    "target_column": "demand_count",
+    "timezone": "Asia/Kolkata",
+    "max_iter": 160,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 31,
+    "l2_regularization": 0.1
+  },
+  "output_schema_version": "1.1",
+  "demand_definition": "valid ride-request attempts per pickup H3 cell per local hour; completed, cancelled and rejected request attempts are retained",
+  "osm_poi_tags": {
+    "amenity": ["hospital", "clinic", "pharmacy", "school", "college", "university", "marketplace", "bus_station", "bus_stop", "ferry_terminal"],
+    "shop": true,
+    "office": true,
+    "railway": ["station", "halt"],
+    "highway": ["bus_stop"],
+    "leisure": ["park", "sports_centre", "stadium", "pitch"],
+    "tourism": true
+  },
+  "osm_context_tags": {
+    "landuse": ["residential", "commercial", "industrial", "retail"],
+    "building": true
+  },
+  "base_requests_per_hour": 10,
+  "output": {
+    "boundary": "data/raw/belagavi_merged_boundary.geojson",
+    "city_boundary": "data/raw/city_corporation_boundary.geojson",
+    "cantonment_boundary": "data/raw/cantonment_boundary.geojson",
+    "cantonment_zones": "data/raw/cantonment_source_zones.geojson",
+    "boundary_candidates": "data/processed/boundary_candidates.json",
+    "pois": "data/raw/belagavi_osm_pois.geojson",
+    "context": "data/raw/belagavi_osm_context.geojson",
+    "h3": "data/processed/belagavi_h3_r8.geojson",
+    "rides": "data/processed/synthetic_rides_180d.csv",
+    "hourly": "data/processed/hourly_h3_demand_180d.csv",
+    "validation": "data/processed/boundary_validation.json",
+    "validation_markdown": "data/processed/boundary_validation.md",
+    "preview_png": "data/processed/belagavi_boundary_preview.png",
+    "preview_html": "data/processed/belagavi_boundary_preview.html"
+    ,"operational_boundary_draft": "data/raw/kasucab_operational_boundary_draft.geojson"
+    ,"logical_regions": "data/raw/kasucab_logical_regions.geojson"
+    ,"region_definitions": "data/processed/kasucab_region_definitions.json"
+    ,"operational_validation": "data/processed/operational_boundary_validation.json"
+    ,"operational_validation_markdown": "data/processed/operational_boundary_validation.md"
+    ,"operational_preview_png": "data/processed/operational_boundary_preview.png"
+    ,"operational_preview_html": "data/processed/operational_boundary_preview.html"
+    ,"operational_source_features": "data/raw/boundary_candidates/operational_source_features.geojson"
+    ,"manual_operational_boundary": "data/raw/kasucab_operational_boundary.geojson"
+    ,"normalized_operational_boundary": "data/processed/kasucab_operational_boundary_normalized.geojson"
+    ,"synthetic_h3_cells": "data/processed/synthetic_h3_cells.geojson"
+    ,"synthetic_h3_cells_csv": "data/processed/synthetic_h3_cells.csv"
+    ,"synthetic_region_mapping": "data/processed/synthetic_region_mapping.csv"
+    ,"synthetic_geography_metadata": "data/processed/synthetic_geography_metadata.json"
+    ,"synthetic_geography_validation": "data/processed/synthetic_geography_validation.md"
+    ,"synthetic_geography_preview_png": "data/processed/synthetic_geography_preview.png"
+    ,"synthetic_geography_preview_html": "data/processed/synthetic_geography_preview.html"
+    ,"osm_pois": "data/raw/osm_pois.geojson"
+    ,"osm_context_features": "data/raw/osm_context_features.geojson"
+    ,"osm_poi_features_csv": "data/processed/osm_poi_features.csv"
+    ,"h3_poi_context": "data/processed/h3_poi_context.csv"
+    ,"osm_context_metadata": "data/processed/osm_context_metadata.json"
+    ,"osm_context_validation": "data/processed/osm_context_validation.md"
+    ,"synthetic_rides": "data/processed/synthetic_rides.csv"
+    ,"synthetic_ride_metadata": "data/processed/synthetic_ride_generation_metadata.json"
+    ,"synthetic_ride_report": "data/processed/synthetic_ride_generation_report.md"
+    ,"synthetic_rides_sample": "data/processed/synthetic_rides_sample.csv"
+    ,"synthetic_ride_summary_png": "data/processed/synthetic_ride_generation_summary.png"
+    ,"hourly_h3_demand": "data/processed/hourly_h3_demand.csv"
+    ,"hourly_demand_metadata": "data/processed/hourly_demand_metadata.json"
+    ,"hourly_demand_validation": "data/processed/hourly_demand_validation.md"
+    ,"hourly_demand_summary_png": "data/processed/hourly_demand_summary.png"
+    ,"forecasting_features": "data/processed/forecasting_features.csv"
+    ,"forecasting_feature_metadata": "data/processed/forecasting_feature_metadata.json"
+    ,"forecast_model": "models/demand_forecasting/model.joblib"
+    ,"forecast_feature_schema": "models/demand_forecasting/feature_schema.json"
+    ,"forecast_model_metadata": "models/demand_forecasting/model_metadata.json"
+    ,"forecast_evaluation_metrics": "models/demand_forecasting/evaluation_metrics.json"
+    ,"forecast_region_metrics": "models/demand_forecasting/region_metrics.csv"
+    ,"forecast_hourly_metrics": "models/demand_forecasting/hourly_metrics.csv"
+    ,"forecast_diagnostics": "models/demand_forecasting/diagnostics.png"
+    ,"forecast_report": "models/demand_forecasting/forecasting_report.md"
+  }
+}

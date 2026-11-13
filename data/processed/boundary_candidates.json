@@ -1,0 +1,96 @@
+{
+  "nominatim_candidates": [
+    {
+      "source": "Nominatim",
+      "source_query": "Belagavi City Corporation, Karnataka, India",
+      "retrieval_timestamp_utc": "2026-11-13T17:27:40.311620+00:00",
+      "osm_element_type": "way",
+      "osm_id": 511114422,
+      "relation_id": null,
+      "name": "Belagavi City Corporation",
+      "official_name": null,
+      "local_name": null,
+      "display_name": "Belagavi City Corporation, Belgaum - Panaji Highway, Subhash Nagar, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "boundary": null,
+      "admin_level": "Belagavi",
+      "other_osm_tags": {},
+      "geometry_type": "Polygon",
+      "bounds": [
+        74.5161952,
+        15.8729083,
+        74.516951,
+        15.8736206
+      ],
+      "area_km2": null,
+      "candidate_role": "city_corporation"
+    },
+    {
+      "source": "Nominatim",
+      "source_query": "Belagavi Cantonment, Karnataka, India",
+      "retrieval_timestamp_utc": "2026-11-13T17:27:40.311620+00:00",
+      "osm_element_type": "way",
+      "osm_id": 1119941070,
+      "relation_id": null,
+      "name": "Belagavi Cantonment",
+      "official_name": null,
+      "local_name": null,
+      "display_name": "Belagavi Cantonment, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "boundary": null,
+      "admin_level": "Belagavi",
+      "other_osm_tags": {},
+      "geometry_type": "Polygon",
+      "bounds": [
+        74.4764042,
+        15.8438457,
+        74.507904,
+        15.8799668
+      ],
+      "area_km2": null,
+      "candidate_role": "cantonment"
+    },
+    {
+      "source": "Nominatim",
+      "source_query": "Belgaum Cantonment, Karnataka, India",
+      "retrieval_timestamp_utc": "2026-11-13T17:27:40.311620+00:00",
+      "osm_element_type": "node",
+      "osm_id": 1516238748,
+      "relation_id": null,
+      "name": "Camp",
+      "official_name": null,
+      "local_name": null,
+      "display_name": "Camp, Belagavi, Belagavi taluku, Belagavi, Karnataka, 590001, India",
+      "boundary": null,
+      "admin_level": "Belagavi",
+      "other_osm_tags": {},
+      "geometry_type": "Point",
+      "bounds": [
+        74.4996608,
+        15.8514981,
+        74.4996608,
+        15.8514981
+      ],
+      "area_km2": null,
+      "candidate_role": "other"
+    }
+  ],
+  "overpass_candidates": [],
+  "failures": [
+    {
+      "source": "Overpass",
+      "error": [
+        {
+          "endpoint": "https://overpass-api.de/api/interpreter",
+          "error": "502 Server Error: Bad Gateway for url: https://overpass-api.de/api/interpreter"
+        },
+        {
+          "endpoint": "https://overpass.kumi.systems/api/interpreter",
+          "error": "HTTPSConnectionPool(host='overpass.kumi.systems', port=443): Read timed out. (read timeout=180)"
+        },
+        {
+          "endpoint": "https://overpass.private.coffee/api/interpreter",
+          "error": "HTTPSConnectionPool(host='overpass.private.coffee', port=443): Read timed out. (read timeout=180)"
+        }
+      ]
+    }
+  ]
+}

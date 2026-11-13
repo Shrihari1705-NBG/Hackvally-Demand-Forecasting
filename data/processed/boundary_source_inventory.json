@@ -1,0 +1,16 @@
+{
+  "research_timestamp_utc": "2026-11-13T17:50:58.3325341Z",
+  "phase": "2.5",
+  "decision": "C: Neither boundary confidently identified",
+  "administrative_boundary_verified": false,
+  "boundary_approved": false,
+  "sources": [
+    {"name":"Karnataka State GIS Portal","url":"https://stategisportal.nic.in/stategisportal/Home/State/29","result":"unresolved","checked_for":["municipal boundaries","urban local body boundaries","ward boundaries","downloadable GIS or map services"],"limitation":"Page timed out in browser fetch and returned a certificate-chain error in direct read-only retrieval; no Belagavi geometry confirmed."},
+    {"name":"India Geodata","url":"https://yashveeeeeeer.github.io/india-geodata/","result":"no Belagavi municipal geometry identified","published_coverage":"Municipal wards for 28 cities","underlying_sources":["SBM","AMRUT","DataMeet Municipal Spatial Data"],"license":"Repository CC BY 4.0; individual datasets retain documented licenses","limitation":"Published urban file list contains no Belagavi city directory or ward file; district/subdistrict data is not a City Corporation boundary."},
+    {"name":"ArcGIS India_10_Cities_City_boundary","url":"https://services.arcgis.com/hBEMHCkbQdfV906F/ArcGIS/rest/services/India_10_Cities_City_boundary/FeatureServer/0","result":"Belagavi absent","features_returned":["Delhi","Bengaluru","Ahmedabad","Chennai","Hyderabad","Jaipur","Kolkata","Mumbai","Pune","Surat"],"geometry_type":"esriGeometryPolygon","spatial_reference":"EPSG:3857 / WKID 102100","data_last_edit":"2023-06-27","service_metadata_last_edit":"2025-09-14"},
+    {"name":"Belagavi City Corporation","url":"https://belagavicitycorp.org/WebSiteBGM/WardInfromation.aspx","result":"ward information page found; downloadable ward geometry not found","limitation":"Accessible page contains a dynamic interface but no polygon download or GIS service was exposed."},
+    {"name":"Belagavi Cantonment Board","urls":["https://belgaum.cantt.gov.in/city-map/","https://belgaum.cantt.gov.in/about-board/"],"result":"official pages found; downloadable GIS boundary not found","limitation":"Supplied city-map URL redirected to Board homepage in this environment."},
+    {"name":"OpenStreetMap","result":"candidate geometries investigated","candidates":[{"id":"way/1119941070","name":"Belagavi Cantonment","tags":{"landuse":"military"},"area_km2":7.15742,"confidence":"Low"},{"id":"way/511114422","name":"Belagavi City Corporation","tags":{"building":"public"},"area_km2":0.00346,"confidence":"Rejected"},{"id":"way/138292670","name":"Belgaum Fort","tags":{"historic":"fort"},"area_km2":0.51807,"confidence":"Rejected"},{"id":"relation/2020648","name":"Belagavi District","tags":{"boundary":"administrative","admin_level":"5"},"confidence":"Rejected"},{"id":"relation/3773898","name":"Belagavi taluku","tags":{"boundary":"administrative","admin_level":"6"},"confidence":"Rejected"}]}
+  ],
+  "required_manual_inputs":["Official City Corporation boundary or current ward polygon dataset with identifiers and publication date","Official Cantonment boundary covering Main Cantonment and Fort Zone in GeoJSON, Shapefile, GeoPackage, KML, or georeferenced administrative map"]
+}
